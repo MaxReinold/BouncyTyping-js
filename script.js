@@ -2,7 +2,6 @@ let chars = [];
 function setup(){
   createCanvas(windowWidth,windowHeight);
   background(0);
-  chars[0] = new CharObject('a');
   fill(255);
   textSize(32)
 }
